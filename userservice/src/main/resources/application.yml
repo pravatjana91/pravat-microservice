@@ -4,3 +4,8 @@ server:
 spring:
   application:
     name: USER-SERVICE
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    password: admin
+    url: jdbc:mariadb://localhost:3306/sample
+    username: root
