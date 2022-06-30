@@ -13,12 +13,15 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
+import lombok.Data;
+
 /**
  *
  * @author prava
  */
 @Entity
 @Table(name = "employee")
+@Data
 public class Employee implements Serializable {
 
     private static final long serialVersionUID = 1L;

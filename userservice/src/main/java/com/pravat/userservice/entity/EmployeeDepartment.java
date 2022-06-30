@@ -9,8 +9,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
+
 @Entity
 @Table(name = "employee_department")
+@Data
+
 public class EmployeeDepartment implements Serializable {
 
     private static final long serialVersionUID = 1L;
