@@ -16,10 +16,10 @@ public class UserController {
 		return "hello world departmet service ";
 	}
 	
-	@RequestMapping(value = "v1/userservice/{name}", method = RequestMethod.GET)
+	@RequestMapping(value = "/department/{name}", method = RequestMethod.GET)
 	public String getLicenses(@PathVariable("name") String name) {
 
-		return "hello world user service " + name;
+		return "hello world department service " + name;
 	}
 
 }
