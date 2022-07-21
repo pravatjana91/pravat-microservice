@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 //@RequestMapping(value = "v1/userservice")
-public class UserController {
+public class DepartmentController {
 
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)

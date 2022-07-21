@@ -23,7 +23,9 @@ public class UserService {
 
 	public String getDepartmentService(String name) {
 		
-	    String department =restTemplate.getForObject("http://localhost:9002/department/" + name,String.class);
+	  //  String department =restTemplate.getForObject("http://localhost:9002/department/" + name,String.class);
+	    String department =restTemplate.getForObject("http://DEPARTMENT-SERVICE/department/" + name,String.class);
+		
 		return department;
 	}
  }

@@ -9,7 +9,7 @@ import com.pravat.userservice.repository.EmployeeRepository;
 
 @Service
 @Slf4j
-public class UserService {
+public class DepartmentService {
 
 	@Autowired
     private EmployeeRepository employeeRepository;
